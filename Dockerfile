@@ -1,4 +1,4 @@
-FROM skiychan/nginx-php7:latest
+FROM skiychan/nginx-php7:4.10.0
 MAINTAINER Madfrog <zhyunlong@163.com>
 # NGINX
 ADD nginx.conf /usr/local/nginx/conf/
